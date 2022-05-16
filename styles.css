@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 120%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #CCF3EE;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #B7E5DD;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #B7E5DD;
+}
+
+a {
+  color: #B7E5DD;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  color: #EAF6F6;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #F9CEEE;
+  position: relative;
+  padding: 10px;
+}
+
+.middle-container {
+  color: #40514E;
+  margin: 100px 0;
+}
+
+.name {
+  color: #C8F2EF;
+}
+
+.portfolio {
+  width: 150px;
+  position: absolute;
+  right: 100px;
+  top: 40px;
+}
+
+.workspace {
+  width: 300px;
+  position: relative;
+}
+
+.profile-img {
+  height: 200px;
+}
+
+.mouse-gif {
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.car-gif {
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill {
+  margin-bottom: 200px;
+}
+
+.hobbie {
+  margin-bottom: 100px;
+}
+
+.button {
+	box-shadow: 0 14px 14px -7px #FFEFEF;
+	background:linear-gradient(to bottom, #F9CEEE 5%, #FFCBCB 100%);
+	background-color:#D9D7F1;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Merriweather', serif;
+	font-size:17px;
+	padding:15px 24px;
+	text-decoration:none;
+	text-shadow: 0 4px 0 #F9CEEE;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #F9F3EE 5%, #FDEFEF 100%);
+	background-color:#FDEFEF;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #F9CEEE;
+  margin: 100px auto 0;
+  padding: 50px 0 20px;
+}
+
+.social-icon {
+  color: #333333;
+  transition: color 0.2s;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-icon:hover {
+  color: #aaaaaa;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
